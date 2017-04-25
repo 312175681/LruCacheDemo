@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
                 LruCacheUtils
                         .getIntances()
                         .requestImage("https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-                                imageView);
+                                imageView,
+                                R.mipmap.ic_image_loading, R.mipmap.ic_image_loadfail);
             }
         });
     }
